@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif!important;
+}
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Roboto Slab', 'Times New Roman', serif!important;
+}
+
+a {
+    color: #66CC10;
+}
+
+a:hover {
+    color: #92B500;
+}
+
+nav a:hover {
+    color: #B59B00;
+}
+nav, .footer {
+    background-color: #66CC10;    
+}
+
+nav a {
+    color: #CC6E00;
+}
+
+.active a {
+    color: #66CC10;
+}
+
+.active a:hover {
+    color: #66CC10;
+}
+
+.active {
+    background-color: #CC6E00;
+}
+
+.jumbotron {
+    background-color: #CC6E00;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1, h2 {
+    color: #18B505;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem 0;
+    color: #CC6E00;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+.fa-facebook:hover {
+    color: #4267b2;
+}
+
+.fa-twitter:hover {
+    color: #1da1f2;
+}
+
+.fa-google-plus:hover {
+    color: #dd4b39;
+}
+
+.fa-linkedin:hover {
+    color: #0077b5;    
+}
+
+.fa {
+    padding: 5px;
+    color: #CC6E00;
+}
+
+.custom-toggler {
+    border-color: #CC6E00;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(204,110,0,0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.google-map {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background-color: #66CC10;
+    color: #CC6E00;
+}
+
+main {
+    margin: 2rem 0;
+}
+
+input:focus, textarea:focus {
+    border-color: #66CC10!important;
+    box-shadow: 0 0 0 .2rem rgba(102,204,16,.8)!important;
+}
+
+footer .col-md-6:first-child {
+    margin: auto 0;
+}

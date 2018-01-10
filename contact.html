@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <!--  Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--  Google Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700" rel="stylesheet">
+    <!--  Main Css  -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Bootstrap Website</title>
+</head>
+<body>
+    <nav class="navbar navbar-fixed-top navbar-expand-lg">
+        <a class="navbar-brand" href="#">Green Earth</a>
+        <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="help.html">Things you can do</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <div class="text-center google-map">
+                <img class="img-fluid text-center" src="https://maps.googleapis.com/maps/api/staticmap?center=1110+Merivale+Road&zoom=13&scale=1&size=800x400&maptype=roadmap&key=AIzaSyBJJVwrLVd8un29nG-pqTmQoUUZIHjUFKA&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0x66cc10%7Clabel:%7C1110+Merivale+Road" alt="Our Location">
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="userName">Email address</label>
+                    <input type="text" class="form-control" id="userName" aria-describedby="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="userEmail">Email address</label>
+                    <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your message</label>
+                    <textarea class="form-control" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <p>&copy;<time datetime="2018">2018</time> Dang Thanh Huy Do</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Follow Us</p>
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://plus.google.com/"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                </div>
+           </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src=js/main.js></script>
+</body>
+</html>
